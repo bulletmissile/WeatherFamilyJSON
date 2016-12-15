@@ -106,7 +106,7 @@ public class WeatherFamily {
 	        msg.setSentDate(new Date());
 	        SMTPTransport t =
 	            (SMTPTransport)session.getTransport("smtps");
-	        t.connect("smtp.gmail.com", "fuvallin@gmail.com", "scatpac9");
+	        t.connect("smtp.gmail.com", "fuvallin@gmail.com", "sxxxxxx9");
 	        t.sendMessage(msg, msg.getAllRecipients());
 	        
 	        System.out.println("Response: " + t.getLastServerResponse());
